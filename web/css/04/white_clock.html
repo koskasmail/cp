@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>white clock</title>
+<style>
+    
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+	isolation: isolate;
+}
+
+.chrome-text {
+	font-family: "Russo One", sans-serif;
+	font-size: 6rem;
+/* 	position: relative; */
+	background: linear-gradient(
+		180deg,
+		#ffffff 0%,
+		#c0c0c0 30%,
+		#999999 45%,
+		#ffffff 50%,
+		#666666 65%,
+		#ffffff 95%
+	);
+	-webkit-background-clip: text;
+	color: transparent;
+	letter-spacing: 0.1em;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="chrome-text">12:22:30</h1>
+    </div>
+</body>
+</html>
+
