@@ -1,2 +1,2 @@
-# cp
- copy paste - learn code from other. (temp code zone)
+# 🔥 cp
+*  ⭐ copy paste - learn code from other. (temp code zone)
